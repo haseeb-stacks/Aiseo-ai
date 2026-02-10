@@ -1,0 +1,15 @@
+name: vents
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - fastapi
+    - uvicorn
+    - pydantic
+    - openai
+    - python-dotenv
+    - httpx
+    - pytest
